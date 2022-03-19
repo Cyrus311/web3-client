@@ -90,7 +90,8 @@ export const TransactionProvider = ({ children }) => {
         currentAccount,
         formData,
         setFormData,
-        handleChange
+        handleChange,
+        sendTransaction
       }}
     >
       {children}
